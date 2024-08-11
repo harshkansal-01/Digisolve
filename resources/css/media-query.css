@@ -1,0 +1,239 @@
+@media only screen and (max-width: 1200px) {
+  html,
+  body {
+    font-size: 14px;
+  }
+
+  .about-para {
+    margin-bottom: 20px;
+  }
+
+  .section-heading,
+  .testimonial-heading,
+  .packages-heading,
+  .contact-heading {
+    margin-top: 90px;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  html,
+  body {
+    font-size: 12px;
+  }
+
+  .row {
+    padding: 0 2%;
+  }
+
+  .about-box {
+    margin-top: 60px;
+  }
+
+  .about-box:first-child {
+    padding: 0;
+    padding-left: 5%;
+  }
+
+  .laptop-image {
+    padding-right: 5%;
+  }
+
+  .package-box {
+    width: 100%;
+  }
+
+  .package-heading {
+    margin-bottom: 25px;
+  }
+
+  footer {
+    padding: 30px;
+  }
+
+  footer p {
+    margin-top: 20px;
+    line-height: 1.4;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  html,
+  body {
+    font-size: 12px;
+  }
+
+  .about-heading {
+    margin-bottom: 25px;
+  }
+
+  .section-heading,
+  .testimonial-heading,
+  .packages-heading,
+  .contact-heading {
+    margin-top: 60px;
+  }
+
+  .testimonial-heading {
+    margin-bottom: 10px;
+  }
+
+  .package-para {
+    font-size: 90%;
+  }
+
+  .packages-heading {
+    margin-bottom: 30px;
+  }
+
+  .package-box ul li {
+    font-size: 95%;
+  }
+
+  .section-heading {
+    margin-bottom: 10px;
+  }
+
+  .section-sub-heading:after {
+    margin: 10px auto 15px auto;
+  }
+
+  .header-text-box {
+    margin-bottom: 40px;
+  }
+
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    font-size: 110%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  
+  /* *****about-section**  */
+  
+  .laptop-image {
+    /* width: 90%; */
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .about-box:first-child {
+    text-align: center;
+    padding: 0 5%;
+  }
+
+  .about-box:last-child {
+    /* text-align: center; */
+    display: flex;
+    margin-top: 50px;
+  }
+  
+  /* *******work-section**** */
+  
+  .work-portfolio li {
+    width: 49%;
+    margin: 2px;
+  }
+
+  /* *******Service******** */
+
+  .service-section .section-sub-heading,
+  .work-section .section-sub-heading {
+    font-size: 145%;
+  }
+
+  .span_1_of_4 {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+  .service-para {
+    font-size: 90%;
+    color: #555;
+    margin-bottom: 15px;
+  }
+
+  .service-heading {
+    margin-bottom: 15px;
+  }
+
+  .big-icon {
+    margin-bottom: 15px;
+  }
+
+/* ****client-section****** */
+
+  .client-logo {
+    margin-bottom: -50px;
+  }
+  
+  .client-section {
+    padding-bottom: 25px;
+  }
+
+
+  .span_1_of_3 {
+    width: 100%;
+    padding: 0 10%;
+    margin-bottom: 20px;
+  }
+
+  cite {
+    margin-top: 10px;
+    font-size: 100%;
+  }
+
+  
+  
+/* ************contact****** */
+
+  .contact-label {
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+  
+  .contact-form {
+    width: 100%;
+  }
+
+  input[type="checkbox"],
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    margin-bottom: 10px;
+  }
+
+  .contact-section {
+    padding-bottom: 20px;
+  }
+
+
+/* *******footer********** */
+  .footer-nav {
+    display: block;
+    float: none;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .social-link {
+    display: block;
+    float: none;
+    text-align: center;
+  }
+  
+  .social-link li:first-child {
+    margin-left: 0px;
+  }
+  
+  footer p {
+    line-height: 2;
+    margin-top: 10px;
+  }
+  
+  footer div:last-child {
+    padding: 0 10%;
+  }
+}
+
